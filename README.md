@@ -67,3 +67,10 @@ This module is strongly recommended to be used with [table](https://github.com/H
 
 
     endprogram
+
+
+
+## Some tips:
+If one need to define lots of operators(possible need to), the correct way is to declare a array of operators, like:   
+   type(FermOper)::f(100). </br>
+In principle, subroutine f%act(...) will be very efficient. But the initialization process would be a little time costly. One should only call this subroutine once in all the calculations. One can pass f into different subroutines.
