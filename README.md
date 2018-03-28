@@ -9,6 +9,8 @@ A general fermion operator f can act on this state and a new state |Y> is obtain
 |Y> = Σ<sub>i</sub> |ѱ'<sub>i</sub>> = Σ<sub>a</sub>Σ<sub>i</sub> A<sub>a</sub>  |ѱ<sub>i</sub>>.</br>
 We can conclude all we need is to calculate A<sub>a</sub>  |ѱ<sub>i</sub>>. </br>
 In this module, all the usefull actions like: c, c<sup>+</sup>,c<sup>+</sup>c,c<sup>+</sup>cc<sup>+</sup>c...will be offered.
+
+This module is strongly recommended to be used with [table](https://github.com/HengyueLi/Fermion_Table) object.
 ## example:
 
     program main
